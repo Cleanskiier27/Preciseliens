@@ -74,12 +74,12 @@ python -c "from transformers import pipeline; print(pipeline('sentiment-analysis
 
 Installing from source installs the *latest* version rather than the *stable* version of the library. It ensures you have the most up-to-date changes in Transformers and it's useful for experimenting with the latest features or fixing a bug that hasn't been officially released in the stable version yet.
 
-The downside is that the latest version may not always be stable. If you encounter any problems, please open a [GitHub Issue](https://github.com/huggingface/transformers/issues) so we can fix it as soon as possible.
+The downside is that the latest version may not always be stable. If you encounter any problems, please open a [GitHub Issue](https://github.com/NETWORKBUSTER/Preciseliens/issues) so we can fix it as soon as possible.
 
 Install from source with the following command.
 
 ```bash
-uv pip install git+https://github.com/huggingface/transformers
+uv pip install git+https://github.com/NETWORKBUSTER/Preciseliens
 ```
 
 Check if the install was successful with the command below. It should return a label and score for the provided text.
@@ -91,11 +91,11 @@ python -c "from transformers import pipeline; print(pipeline('sentiment-analysis
 
 ### Editable install
 
-An [editable install](https://pip.pypa.io/en/stable/topics/local-project-installs/#editable-installs) is useful if you're developing locally with Transformers. It links your local copy of Transformers to the Transformers [repository](https://github.com/huggingface/transformers) instead of copying the files. The files are added to Python's import path.
+An [editable install](https://pip.pypa.io/en/stable/topics/local-project-installs/#editable-installs) is useful if you're developing locally with Transformers. It links your local copy of Transformers to the Transformers [repository](https://github.com/NETWORKBUSTER/Preciseliens) instead of copying the files. The files are added to Python's import path.
 
 ```bash
-git clone https://github.com/huggingface/transformers.git
-cd transformers
+git clone https://github.com/NETWORKBUSTER/Preciseliens.git
+cd Preciseliens
 uv pip install -e .
 ```
 

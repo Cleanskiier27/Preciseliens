@@ -24,7 +24,7 @@ pip install -e ".[dev]"
 ```
 
 > [!NOTE]
-> This command might fail for some OS that are missing dependencies. Check step 4 in [Create a Pull Request](https://github.com/huggingface/transformers/blob/main/CONTRIBUTING.md#create-a-pull-request) to workaround it.
+> This command might fail for some OS that are missing dependencies. Check step 4 in [Create a Pull Request](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/CONTRIBUTING.md#create-a-pull-request) to workaround it.
 
 Then you need to install our special tool that builds the documentation:
 
@@ -79,7 +79,7 @@ The docs will be viewable at [http://localhost:3000](http://localhost:3000). You
 Accepted files are Markdown (.md).
 
 Create a file with its extension and put it in the source directory. You can then link it to the toc-tree by putting
-the filename without the extension in the [`_toctree.yml`](https://github.com/huggingface/transformers/blob/main/docs/source/en/_toctree.yml) file.
+the filename without the extension in the [`_toctree.yml`](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/docs/source/en/_toctree.yml) file.
 
 ## Renaming section headers and moving sections
 
@@ -104,7 +104,7 @@ Sections that were moved:
 
 Use the relative style to link to the new file so that the versioned docs continue to work.
 
-For an example of a rich moved section set please see the very end of [the Trainer doc](https://github.com/huggingface/transformers/blob/main/docs/source/en/main_classes/trainer.md).
+For an example of a rich moved section set please see the very end of [the Trainer doc](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/docs/source/en/main_classes/trainer.md).
 
 
 ## Writing Documentation - Specification
@@ -126,7 +126,7 @@ four.
 
 ### Translating
 
-When translating, refer to the guide at [./TRANSLATING.md](https://github.com/huggingface/transformers/blob/main/docs/TRANSLATING.md).
+When translating, refer to the guide at [./TRANSLATING.md](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/docs/TRANSLATING.md).
 
 
 ### Adding a new model
@@ -358,7 +358,7 @@ works as expected.
 To do so each example should be included in the doctests. 
 We use pytests' [doctest integration](https://docs.pytest.org/doctest.html) to verify that all of our examples run correctly. 
 For Transformers, the doctests are run on a daily basis via GitHub Actions as can be 
-seen [here](https://github.com/huggingface/transformers/actions/workflows/doctests.yml).
+seen [here](https://github.com/NETWORKBUSTER/Preciseliens/actions/workflows/doctests.yml).
 
 ### For Python files
 

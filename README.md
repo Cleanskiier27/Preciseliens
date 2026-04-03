@@ -26,33 +26,33 @@ limitations under the License.
 
 <p align="center">
     <a href="https://huggingface.com/models"><img alt="Checkpoints on Hub" src="https://img.shields.io/endpoint?url=https://huggingface.co/api/shields/models&color=brightgreen"></a>
-    <a href="https://circleci.com/gh/huggingface/transformers"><img alt="Build" src="https://img.shields.io/circleci/build/github/huggingface/transformers/main"></a>
-    <a href="https://github.com/huggingface/transformers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/transformers.svg?color=blue"></a>
+    <a href="https://circleci.com/gh/NETWORKBUSTER/Preciseliens"><img alt="Build" src="https://img.shields.io/circleci/build/github/NETWORKBUSTER/Preciseliens/main"></a>
+    <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/NETWORKBUSTER/Preciseliens.svg?color=blue"></a>
     <a href="https://huggingface.co/docs/transformers/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online"></a>
-    <a href="https://github.com/huggingface/transformers/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg"></a>
-    <a href="https://github.com/huggingface/transformers/blob/main/CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
+    <a href="https://github.com/NETWORKBUSTER/Preciseliens/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/NETWORKBUSTER/Preciseliens.svg"></a>
+    <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
     <a href="https://zenodo.org/badge/latestdoi/155220641"><img src="https://zenodo.org/badge/155220641.svg" alt="DOI"></a>
 </p>
 
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hans.md">简体中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ko.md">한국어</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_es.md">Español</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ja.md">日本語</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_hd.md">हिन्दी</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ru.md">Русский</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_pt-br.md">Português</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_te.md">తెలుగు</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_it.md">Italiano</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_zh-hans.md">简体中文</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_ko.md">한국어</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_es.md">Español</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_ja.md">日本語</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_hd.md">हिन्दी</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_ru.md">Русский</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_pt-br.md">Português</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_fr.md">Français</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_de.md">Deutsch</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_it.md">Italiano</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_ar.md">العربية</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_ur.md">اردو</a> |
+        <a href="https://github.com/NETWORKBUSTER/Preciseliens/blob/main/i18n/README_bn.md">বাংলা</a> |
     </p>
 </h4>
 
@@ -104,11 +104,11 @@ pip install "transformers[torch]"
 uv pip install "transformers[torch]"
 ```
 
-Install Transformers from source if you want the latest changes in the library or are interested in contributing. However, the *latest* version may not be stable. Feel free to open an [issue](https://github.com/huggingface/transformers/issues) if you encounter an error.
+Install Transformers from source if you want the latest changes in the library or are interested in contributing. However, the *latest* version may not be stable. Feel free to open an [issue](https://github.com/NETWORKBUSTER/Preciseliens/issues) if you encounter an error.
 
 ```shell
-git clone https://github.com/huggingface/transformers.git
-cd transformers
+git clone https://github.com/NETWORKBUSTER/Preciseliens.git
+cd Preciseliens
 
 # pip
 pip install '.[torch]'

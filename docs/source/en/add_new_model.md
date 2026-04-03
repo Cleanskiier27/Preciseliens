@@ -86,10 +86,10 @@ Transformers prefers a clean and readable code over a more abstracted code style
 
 ## New model addition issue
 
-Open a [New model addition](https://github.com/huggingface/transformers/issues/new?assignees=&labels=New+model&template=new-model-addition.yml) issue to add a specific model.
+Open a [New model addition](https://github.com/NETWORKBUSTER/Preciseliens/issues/new?assignees=&labels=New+model&template=new-model-addition.yml) issue to add a specific model.
 
 > [!TIP]
-> Filter by the [New model](https://github.com/huggingface/transformers/labels/New%20model) label on GitHub to view and add any existing model requests.
+> Filter by the [New model](https://github.com/NETWORKBUSTER/Preciseliens/labels/New%20model) label on GitHub to view and add any existing model requests.
 
 Now is a good time to get familiar with BrandNewLlama. It is helpful to read a models research paper to understand its technical design and implementation. You don't necessarily have to worry too much about the theoretical details. Instead, focus on the practical ones. Use the questions below to guide your reading.
 
@@ -110,12 +110,12 @@ In addition to learning more about your model, use the tips below to help you ad
 
 ## Dev environment
 
-Click on the **Fork** button on the [Transformers](https://github.com/huggingface/transformers) repository to create your own copy to work on. Clone the repository to your local disk and add the base repository as the remote.
+Click on the **Fork** button on the [Transformers](https://github.com/NETWORKBUSTER/Preciseliens) repository to create your own copy to work on. Clone the repository to your local disk and add the base repository as the remote.
 
 ```bash
 git clone https://github.com/[your Github handle]/transformers.git
 cd transformers
-git remote add upstream https://github.com/huggingface/transformers.git
+git remote add upstream https://github.com/NETWORKBUSTER/Preciseliens.git
 ```
 
 Create a virtual environment and perform an [editable install](./installation#editable-install) of the library with the "dev" or development dependencies.

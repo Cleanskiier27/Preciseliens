@@ -25,7 +25,7 @@ about the awesome projects it made possible, shout out on Twitter every time it 
 helped you, or simply ⭐️ the repository to say thank you.
 
 However you choose to contribute, please be mindful and respect our
-[code of conduct](https://github.com/huggingface/transformers/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/CODE_OF_CONDUCT.md).
 
 **This guide was heavily inspired by the awesome [scikit-learn guide to contributing](https://github.com/scikit-learn/scikit-learn/blob/main/CONTRIBUTING.md).**
 
@@ -39,10 +39,10 @@ There are several ways you can contribute to 🤗 Transformers:
 * Contribute to the examples or to the documentation.
 
 If you don't know where to start, there is a special [Good First
-Issue](https://github.com/huggingface/transformers/contribute) listing. It will give you a list of
+Issue](https://github.com/NETWORKBUSTER/Preciseliens/contribute) listing. It will give you a list of
 open issues that are beginner-friendly and help you start contributing to open-source. The best way to do that is to open a Pull Request and link it to the issue that you'd like to work on. We try to give priority to opened PRs as we can easily track the progress of the fix, and if the contributor does not have time anymore, someone else can take the PR over.
 
-For something slightly more challenging, you can also take a look at the [Good Second Issue](https://github.com/huggingface/transformers/labels/Good%20Second%20Issue) list. In general though, if you feel like you know what you're doing, go for it and we'll help you get there! 🚀
+For something slightly more challenging, you can also take a look at the [Good Second Issue](https://github.com/NETWORKBUSTER/Preciseliens/labels/Good%20Second%20Issue) list. In general though, if you feel like you know what you're doing, go for it and we'll help you get there! 🚀
 
 > All contributions are equally valuable to the community. 🥰
 
@@ -100,7 +100,7 @@ If there is a new feature you'd like to see in 🤗 Transformers, please open an
 
 If your issue is well written we're already 80% of the way there by the time you create it.
 
-We have added [templates](https://github.com/huggingface/transformers/tree/main/templates) to help you get started with your issue.
+We have added [templates](https://github.com/NETWORKBUSTER/Preciseliens/tree/main/templates) to help you get started with your issue.
 
 ## Do you want to implement a new model?
 
@@ -118,7 +118,7 @@ We have a technical guide for [how to add a model to 🤗 Transformers](https://
 
 We're always looking for improvements to the documentation that make it more clear and accurate. Please let us know how the documentation can be improved such as typos and any content that is missing, unclear or inaccurate. We'll be happy to make the changes or help you make a contribution if you're interested!
 
-For more details about how to generate, build, and write the documentation, take a look at the documentation [README](https://github.com/huggingface/transformers/tree/main/docs).
+For more details about how to generate, build, and write the documentation, take a look at the documentation [README](https://github.com/NETWORKBUSTER/Preciseliens/tree/main/docs).
 
 ## Create a Pull Request
 
@@ -131,18 +131,18 @@ You will need basic `git` proficiency to contribute to
 manual. Type `git --help` in a shell and enjoy! If you prefer books, [Pro
 Git](https://git-scm.com/book/en/v2) is a very good reference.
 
-You'll need **[Python 3.9](https://github.com/huggingface/transformers/blob/main/setup.py#L449)** or above to contribute to 🤗 Transformers. Follow the steps below to start contributing:
+You'll need **[Python 3.9](https://github.com/NETWORKBUSTER/Preciseliens/blob/main/setup.py#L449)** or above to contribute to 🤗 Transformers. Follow the steps below to start contributing:
 
-1. Fork the [repository](https://github.com/huggingface/transformers) by
-   clicking on the **[Fork](https://github.com/huggingface/transformers/fork)** button on the repository's page. This creates a copy of the code
+1. Fork the [repository](https://github.com/NETWORKBUSTER/Preciseliens) by
+   clicking on the **[Fork](https://github.com/NETWORKBUSTER/Preciseliens/fork)** button on the repository's page. This creates a copy of the code
    under your GitHub user account.
 
 2. Clone your fork to your local disk, and add the base repository as a remote:
 
    ```bash
-   git clone git@github.com:<your Github handle>/transformers.git
-   cd transformers
-   git remote add upstream https://github.com/huggingface/transformers.git
+   git clone git@github.com:<your Github handle>/Preciseliens.git
+   cd Preciseliens
+   git remote add upstream https://github.com/NETWORKBUSTER/Preciseliens.git
    ```
 
 3. Create a new branch to hold your development changes:

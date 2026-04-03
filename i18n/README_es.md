@@ -26,32 +26,32 @@ limitations under the License.
 
 <p align="center">
     <a href="https://circleci.com/gh/huggingface/transformers"><img alt="Build" src="https://img.shields.io/circleci/build/github/huggingface/transformers/main"></a>
-    <a href="https://github.com/huggingface/transformers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/transformers.svg?color=blue"></a>
+    <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Cleanskiier27/Preciseliens.svg?color=blue"></a>
     <a href="https://huggingface.co/docs/transformers/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online"></a>
-    <a href="https://github.com/huggingface/transformers/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg"></a>
-    <a href="https://github.com/huggingface/transformers/blob/main/CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
+    <a href="https://github.com/Cleanskiier27/Preciseliens/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/Cleanskiier27/Preciseliens.svg"></a>
+    <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
     <a href="https://zenodo.org/badge/latestdoi/155220641"><img src="https://zenodo.org/badge/155220641.svg" alt="DOI"></a>
 </p>
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/huggingface/transformers/">English</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hans.md">简体中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ko.md">한국어</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/">English</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_zh-hans.md">简体中文</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_ko.md">한국어</a> |
         <b>Español</b> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ja.md">日本語</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_hd.md">हिन्दी</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ru.md">Русский</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_pt-br.md">Рortuguês</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_te.md">తెలుగు</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_it.md">Italiano</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_ja.md">日本語</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_hd.md">हिन्दी</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_ru.md">Русский</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_pt-br.md">Рortuguês</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_fr.md">Français</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_de.md">Deutsch</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_it.md">Italiano</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_ar.md">العربية</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_ur.md">اردو</a> |
+        <a href="https://github.com/Cleanskiier27/Preciseliens/blob/main/i18n/README_bn.md">বাংলা</a> |
     </p>
 </h4>
 
@@ -223,7 +223,7 @@ El modelo en si es un [Pytorch `nn.Module`](https://pytorch.org/docs/stable/nn.h
 
 - Esta biblioteca no es una caja de herramientas modular de bloques de construcción para redes neuronales. El código en los archivos del modelo no se refactoriza con abstracciones adicionales a propósito, de modo que los investigadores puedan iterar rápidamente en cada uno de los modelos sin sumergirse en abstracciones/archivos adicionales.
 - La API de entrenamiento no está diseñada para funcionar en ningún modelo, pero está optimizada para funcionar con los modelos proporcionados por la biblioteca. Para bucles genéricos de aprendizaje automático, debe usar otra biblioteca (posiblemente, [Accelerate](https://huggingface.co/docs/accelerate)).
-- Si bien nos esforzamos por presentar tantos casos de uso como sea posible, los scripts en nuestra [carpeta de ejemplos](https://github.com/huggingface/transformers/tree/main/examples) son solo eso: ejemplos. Se espera que no funcionen de forma inmediata en su problema específico y que deba cambiar algunas líneas de código para adaptarlas a sus necesidades.
+- Si bien nos esforzamos por presentar tantos casos de uso como sea posible, los scripts en nuestra [carpeta de ejemplos](https://github.com/Cleanskiier27/Preciseliens/tree/main/examples) son solo eso: ejemplos. Se espera que no funcionen de forma inmediata en su problema específico y que deba cambiar algunas líneas de código para adaptarlas a sus necesidades.
 
 ## Instalación
 
@@ -270,7 +270,7 @@ Número actual de puntos de control: ![](https://img.shields.io/endpoint?url=htt
 
 Para comprobar si cada modelo tiene una implementación en Flax, PyTorch o TensorFlow, o tiene un tokenizador asociado respaldado por la librería 🤗 Tokenizers, ve a [esta tabla](https://huggingface.co/docs/transformers/index#supported-frameworks).
 
-Estas implementaciones se han probado en varios conjuntos de datos (consulte los scripts de ejemplo) y deberían coincidir con el rendimiento de las implementaciones originales. Puede encontrar más detalles sobre el rendimiento en la sección Examples de la [documentación](https://github.com/huggingface/transformers/tree/main/examples).
+Estas implementaciones se han probado en varios conjuntos de datos (consulte los scripts de ejemplo) y deberían coincidir con el rendimiento de las implementaciones originales. Puede encontrar más detalles sobre el rendimiento en la sección Examples de la [documentación](https://github.com/Cleanskiier27/Preciseliens/tree/main/examples).
 
 
 ## Aprender más
@@ -281,7 +281,7 @@ Estas implementaciones se han probado en varios conjuntos de datos (consulte los
 | [Resumen de tareas](https://huggingface.co/docs/transformers/task_summary) | Tareas soportadas 🤗 Transformers |
 | [Tutorial de preprocesamiento](https://huggingface.co/docs/transformers/preprocessing) | Usando la clase `Tokenizer` para preparar datos para los modelos |
 | [Entrenamiento y puesta a punto](https://huggingface.co/docs/transformers/training) | Usando los modelos aportados por 🤗 Transformers en un bucle de entreno de PyTorch/TensorFlow y la API de `Trainer` |
-| [Recorrido rápido: secuencias de comandos de ajuste/uso](https://github.com/huggingface/transformers/tree/main/examples) | Scripts de ejemplo para ajustar modelos en una amplia gama de tareas |
+| [Recorrido rápido: secuencias de comandos de ajuste/uso](https://github.com/Cleanskiier27/Preciseliens/tree/main/examples) | Scripts de ejemplo para ajustar modelos en una amplia gama de tareas |
 | [Compartir y subir modelos](https://huggingface.co/docs/transformers/model_sharing) | Carga y comparte tus modelos perfeccionados con la comunidad |
 | [Migración](https://huggingface.co/docs/transformers/migration) | Migra a 🤗 Transformers desde `pytorch-transformers` o `pytorch-pretrained-bert` |
 

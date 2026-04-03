@@ -20,13 +20,13 @@ This is an Open Source Project so please be mindful that like in any other proje
 
 However, we want to encourage you to ask for help whenever you think it's needed! We are happy about every question we get because it allows us to better understand your needs, possible misunderstandings, and most importantly a way for you to help us make this library better. That being said, this document's main purpose is to provide guidelines at how you can formulate your requests to increase your chances to be understood and to get support.
 
-There are two main venues to receive support: [the forums](https://discuss.huggingface.co/) and [the GitHub issues](https://github.com/huggingface/transformers/issues).
+There are two main venues to receive support: [the forums](https://discuss.huggingface.co/) and [the GitHub issues](https://github.com/NETWORKBUSTER/Preciseliens/issues).
 
 ## The Forums
 
 [The user forums](https://discuss.huggingface.co/) are supported by the wide community of the library users and backed up by developers when needed.
 
-If you have a difficulty with deploying this library or some questions, or you'd like to discuss a new feature, please first consider discussing those things at the forums. Only when you feel your subject matter has been crystallized and you still need support from the library developers do proceed to file an [issue](https://github.com/huggingface/transformers/issues).
+If you have a difficulty with deploying this library or some questions, or you'd like to discuss a new feature, please first consider discussing those things at the forums. Only when you feel your subject matter has been crystallized and you still need support from the library developers do proceed to file an [issue](https://github.com/NETWORKBUSTER/Preciseliens/issues).
 
 In particular all "Please explain" questions or objectively very user-specific feature requests belong to the forums. Here are some example of such questions:
 
@@ -40,7 +40,7 @@ In particular all "Please explain" questions or objectively very user-specific f
 
 ## The GitHub Issues
 
-Everything which hints at a bug should be opened as an [issue](https://github.com/huggingface/transformers/issues).
+Everything which hints at a bug should be opened as an [issue](https://github.com/NETWORKBUSTER/Preciseliens/issues).
 
 You are not required to read the following guidelines before opening an issue. However, if you notice that your issue doesn't get any replies, chances are that the developers have one or several difficulties with its quality. In this case, reading the following points and adjusting your issue accordingly could help.
 
@@ -141,8 +141,8 @@ You are not required to read the following guidelines before opening an issue. H
 
    ````
    ```
-   git clone https://github.com/huggingface/transformers
-   cd transformers
+   git clone https://github.com/NETWORKBUSTER/Preciseliens
+   cd Preciseliens
    pip install .
    ```
    ````
