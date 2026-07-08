@@ -64,20 +64,61 @@ limitations under the License.
     <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/transformers_as_a_model_definition.png"/>
 </h3>
 
-Transformers acts as the model-definition framework for state-of-the-art machine learning with text, computer
-vision, audio, video, and multimodal models, for both inference and training.
+Transformers is a Python library that defines, loads, and executes pretrained transformer-based models for text, vision, audio, video, and multimodal tasks.
 
-It centralizes the model definition so that this definition is agreed upon across the ecosystem. `transformers` is the
-pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training
-frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, ...), inference engines (vLLM, SGLang, TGI, ...),
-and adjacent modeling libraries (llama.cpp, mlx, ...) which leverage the model definition from `transformers`.
+The library provides:
+- model configuration classes that describe architecture and hyperparameters,
+- tokenizer and processor classes that convert raw inputs into model-ready tensors,
+- model classes that implement transformer layers, attention blocks, and task-specific heads,
+- pipeline helpers that bundle preprocessing, model execution, and postprocessing for common tasks.
 
-We pledge to help support new state-of-the-art models and democratize their usage by having their model definition be
-simple, customizable, and efficient.
+How it works:
+1. `from_pretrained(...)` downloads the model configuration and checkpoint weights from the Hugging Face Hub.
+2. The model architecture is instantiated from the configuration and pretrained weights are loaded.
+3. Input text, images, audio, or video are tokenized or featurized into tensors.
+4. The model runs a forward pass through transformer layers to produce logits, embeddings, or final predictions.
+5. Task-specific decoding or postprocessing turns outputs into text, labels, or predictions.
+
+By centralizing model definitions and checkpoint loading, Transformers makes the same model compatible across training frameworks, inference engines, and deployment libraries.
+
+Example flow:
+
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+inputs = tokenizer("The movie was fantastic!", return_tensors="pt")
+outputs = model(**inputs)
+logits = outputs.logits
+predictions = logits.argmax(dim=-1)
+```
+
+The model configuration is also available after loading:
+
+```python
+config = model.config
+print(config)
+```
+
+Alternatively, use a pipeline for a fully managed end-to-end flow:
+
+```python
+from transformers import pipeline
+
+sentiment = pipeline("sentiment-analysis", model=model_name)
+result = sentiment("The movie was fantastic!")
+print(result)
+```
 
 There are over 1M+ Transformers [model checkpoints](https://huggingface.co/models?library=transformers&sort=trending) on the [Hugging Face Hub](https://huggingface.com/models) you can use.
 
 Explore the [Hub](https://huggingface.com/) today to find a model and use Transformers to help you get started right away.
+
+Launch the same flow in a notebook: [Open in Colab](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/text_classification.ipynb)
 
 ## Installation
 
