@@ -14,8 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-> **Licensing notice**: This repository includes a private commercial license draft at [`LICENSE_PRIVATE`](./LICENSE_PRIVATE) with distribution terms restricted to NASA, U.S. government entities, and SpaceX (including AI-related use constraints). The repository's current default license remains [`LICENSE`](./LICENSE) unless and until that draft is formally adopted.
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-dark.svg">
