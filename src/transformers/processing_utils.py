@@ -1889,7 +1889,7 @@ class ProcessorMixin(PushToHubMixin):
                 text=prompt,
                 images=batch_images if images_exist else None,
                 videos=batch_videos if videos_exist else None,
-                audio=batch_audios or None,
+                audio=batch_audios if batch_audios else None,
                 **processor_kwargs,
             )
 
@@ -1916,7 +1916,7 @@ class ProcessorMixin(PushToHubMixin):
                             # Ensure end_pos is also within bounds
                             if end_pos > len(input_ids[i]):
                                 end_pos = len(input_ids[i])
-                            for token_id in range(start_pos, end_pos or len(input_ids[i])):
+                            for token_id in range(start_pos, end_pos if end_pos else len(input_ids[i])):
                                 current_mask[token_id] = 1
                         assistant_masks.append(current_mask)
                     out["assistant_masks"] = assistant_masks
