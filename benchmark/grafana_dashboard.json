@@ -27,8 +27,8 @@
       "keepTime": false,
       "tags": [],
       "targetBlank": false,
-      "title": "Go to data",
-      "tooltip": "Go to data",
+      "title": "Open Mission Data",
+      "tooltip": "Open Mission Data",
       "type": "link",
       "url": "http://transformers-benchmarks.hf.co/d/fdz33iyzln9c0a/transformers-benchmarks?orgId=1&from=${StartTime}&to=${EndTime}"
     }
@@ -2228,12 +2228,17 @@
           "type": "timeseries"
         }
       ],
-      "title": "Usage metrics",
+      "title": "Earth Systems Telemetry",
       "type": "row"
     }
   ],
   "schemaVersion": 39,
-  "tags": [],
+  "tags": [
+    "aerospace",
+    "earth-themed",
+    "mission-control",
+    "benchmarks"
+  ],
   "templating": {
     "list": [
       {
@@ -2368,7 +2373,7 @@
     "hidden": false
   },
   "timezone": "browser",
-  "title": "Transformers benchmarks",
+  "title": "AeroTerra Mission Control \u2014 Benchmark Flight Deck",
   "uid": "fdz33iyzln9c0a",
   "version": 10,
   "weekStart": ""
