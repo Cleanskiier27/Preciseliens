@@ -176,9 +176,16 @@ To chat with a model, the usage pattern is the same. The only difference is you 
 
 > [!TIP]
 > You can also chat with a model directly from the command line, as long as [`transformers serve` is running](https://huggingface.co/docs/transformers/main/en/serving).
+> Start the server with:
+> ```shell
+> transformers serve
+> ```
+> Then run:
 > ```shell
 > transformers chat Qwen/Qwen2.5-0.5B-Instruct
 > ```
+>
+> See the serving docs for more details: [Transformers Serving](https://huggingface.co/docs/transformers/main/en/serving).
 
 ```py
 import torch

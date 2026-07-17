@@ -1367,7 +1367,7 @@ def build(config_class, models_to_create, output_dir, keep_model=False):
     processor_classes = models_to_create["processor"]
 
     # AutoTokenizer can't load from hub repo ...
-    if config_class.__name__ in ["FastSpeech2ConformerWithHifiGanConfig"]:
+    if config_class.__name__ == "FastSpeech2ConformerWithHifiGanConfig":
         processor_classes = (FastSpeech2ConformerTokenizer,) + processor_classes
 
     if len(processor_classes) == 0:
