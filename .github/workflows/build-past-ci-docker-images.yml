@@ -12,7 +12,7 @@ concurrency:
 jobs:
   past-pytorch-docker:
     name: "Past PyTorch Docker"
-    if: github.repository == 'huggingface/transformers'
+    if: ${{ github.repository == 'huggingface/transformers' }}
     strategy:
       fail-fast: false
       matrix:
@@ -58,7 +58,7 @@ jobs:
 
   past-tensorflow-docker:
     name: "Past TensorFlow Docker"
-    if: github.repository == 'huggingface/transformers'
+    if: ${{ github.repository == 'huggingface/transformers' }}
     strategy:
       fail-fast: false
       matrix:

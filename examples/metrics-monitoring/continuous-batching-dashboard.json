@@ -9,7 +9,7 @@
                 },
                 "enable": true,
                 "hide": true,
-                "iconColor": "rgba(0, 211, 255, 1)",
+                "iconColor": "rgba(109, 186, 130, 1)",
                 "name": "Annotations & Alerts",
                 "target": {
                     "limit": 100,
@@ -23,7 +23,7 @@
     },
     "editable": true,
     "fiscalYearStartMonth": 0,
-    "graphTooltip": 0,
+    "graphTooltip": 2,
     "id": 2,
     "links": [],
     "panels": [
@@ -101,7 +101,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "KV Cache Memory Usage",
+            "title": "Orbital Cache Envelope",
             "transparent": true,
             "type": "gauge"
         },
@@ -165,7 +165,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "Active Requests",
+            "title": "Active Flight Requests",
             "transparent": true,
             "type": "stat"
         },
@@ -229,7 +229,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "Waiting Requests",
+            "title": "Queued Requests",
             "transparent": true,
             "type": "stat"
         },
@@ -298,7 +298,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "Decode/Prefill Ratio",
+            "title": "Decode vs Prefill Balance",
             "transparent": true,
             "type": "stat"
         },
@@ -391,7 +391,7 @@
                     "refId": "A"
                 }
             ],
-            "title": "Decode tokens throupught tok/s",
+            "title": "Decode Throughput (tok/s)",
             "type": "timeseries"
         },
         {
@@ -483,7 +483,7 @@
                     "refId": "A"
                 }
             ],
-            "title": "Prefill rate tok/s",
+            "title": "Prefill Throughput (tok/s)",
             "type": "timeseries"
         },
         {
@@ -601,7 +601,7 @@
                     "refId": "C"
                 }
             ],
-            "title": "Batch fill percentage percentiles",
+            "title": "Batch Fill Percentiles",
             "type": "timeseries"
         },
         {
@@ -720,7 +720,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "KV Cache Memory Usage Over Time",
+            "title": "Orbital Cache Envelope Over Time",
             "type": "timeseries"
         },
         {
@@ -951,14 +951,19 @@
                     "refId": "C"
                 }
             ],
-            "title": "Request latency percentiles",
+            "title": "Request Latency Percentiles",
             "type": "timeseries"
         }
     ],
     "preload": false,
     "refresh": "5s",
     "schemaVersion": 41,
-    "tags": [],
+    "tags": [
+        "aerospace",
+        "earth-themed",
+        "mission-control",
+        "continuous-batching"
+    ],
     "templating": {
         "list": []
     },
@@ -967,8 +972,8 @@
         "to": "now"
     },
     "timepicker": {},
-    "timezone": "",
-    "title": "Transformers Continuous Batching Metrics",
+    "timezone": "browser",
+    "title": "AeroTerra Mission Control \u2014 Continuous Batching",
     "uid": "Lw6CTvVSz",
     "version": 5
 }
