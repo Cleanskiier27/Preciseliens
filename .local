@@ -1,0 +1,5 @@
+> git add -A -- .
+warning: could not open directory '__pycache__-main/GATES-main/.devcontainer-main/New folder/': Filename too long
+error: open("__pycache__-main/GATES-main/.devcontainer-main/.gitattributes"): Filename too long
+error: unable to index file '__pycache__-main/GATES-main/.devcontainer-main/.gitattributes'
+fatal: adding files failed
