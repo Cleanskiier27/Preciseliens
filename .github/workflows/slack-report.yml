@@ -39,7 +39,7 @@ jobs:
   send_results:
     name: Send results to webhook
     runs-on: ubuntu-22.04
-    if: always() && !cancelled() && secrets.CI_SLACK_BOT_TOKEN != '' && secrets.TRANSFORMERS_CI_RESULTS_UPLOAD_TOKEN != '' && secrets.ACCESS_REPO_INFO_TOKEN != ''
+    if: always() && !cancelled()
     steps:
       - name: Preliminary job status
         shell: bash
@@ -71,7 +71,23 @@ jobs:
             echo "OTHER_WORKFLOW_RUN_ID=" >> $GITHUB_ENV
           fi
 
+      - name: Check webhook credentials
+        id: check_webhook_credentials
+        shell: bash
+        env:
+          CI_SLACK_BOT_TOKEN: ${{ secrets.CI_SLACK_BOT_TOKEN }}
+          ACCESS_REPO_INFO_TOKEN: ${{ secrets.ACCESS_REPO_INFO_TOKEN }}
+          TRANSFORMERS_CI_RESULTS_UPLOAD_TOKEN: ${{ secrets.TRANSFORMERS_CI_RESULTS_UPLOAD_TOKEN }}
+        run: |
+          if [ -n "$CI_SLACK_BOT_TOKEN" ] && [ -n "$ACCESS_REPO_INFO_TOKEN" ] && [ -n "$TRANSFORMERS_CI_RESULTS_UPLOAD_TOKEN" ]; then
+            echo "can_report=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "can_report=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping webhook report because required secrets are unavailable."
+          fi
+
       - name: Send message to Slack
+        if: steps.check_webhook_credentials.outputs.can_report == 'true'
         shell: bash
         env:
           CI_SLACK_BOT_TOKEN: ${{ secrets.CI_SLACK_BOT_TOKEN }}
