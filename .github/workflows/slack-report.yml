@@ -39,7 +39,7 @@ jobs:
   send_results:
     name: Send results to webhook
     runs-on: ubuntu-22.04
-    if: always() && !cancelled()
+    if: always() && !cancelled() && secrets.CI_SLACK_BOT_TOKEN != '' && secrets.TRANSFORMERS_CI_RESULTS_UPLOAD_TOKEN != '' && secrets.ACCESS_REPO_INFO_TOKEN != ''
     steps:
       - name: Preliminary job status
         shell: bash
