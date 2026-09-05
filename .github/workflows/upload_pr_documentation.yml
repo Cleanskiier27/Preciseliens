@@ -6,8 +6,14 @@ on:
     types:
       - completed
 
+permissions: {}
+
 jobs:
   build:
+    permissions:
+      actions: read
+      issues: read
+      pull-requests: read
     uses: huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@4a384d0ccdeb8502a57f1003acee938b42a5592a  # main
     with:
       package_name: transformers
