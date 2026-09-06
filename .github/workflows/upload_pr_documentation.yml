@@ -6,6 +6,10 @@ on:
     types:
       - completed
 
+permissions:
+  actions: read
+  contents: read
+
 jobs:
   build:
     uses: huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@ab45d6909428d7ddb7cb4e8d220a69b0667db945  # main
